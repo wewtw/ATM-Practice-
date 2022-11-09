@@ -39,7 +39,7 @@ const Account = () => {
 
   let status = `Account Balance $ ${totalState} `;
   console.log(`Account Rendered with isDeposit: ${isDeposit}`);
-  const [logTotal]= React.useState([`${status}`]);
+  //const [logTotal]= React.useState([`${status}`]);
   ////////////////////////////////////////////
   const handleChange = (event) => {
     console.log(Number(event.target.value));
@@ -83,14 +83,13 @@ const Account = () => {
 
 
   ////////////////////////////////////////////////////////////
-  const activityLogHandle = (e, logTotal)=>{
-    let log = [`${totalState}`]
+  //const activityLogHandle = (e, logTotal)=>{
+    //let log = [`${totalState}`]
     // for(i=0; i < log.length; i++){
     //   log = logTotal;
     // }
-    return
-  
-  }
+    //return
+  //}
 
 
 
@@ -126,7 +125,7 @@ const Account = () => {
           ></ATMDeposit>
         )}
         <p></p>
-        <p onChange={(e)=> activityLogHandle(e)} id="logStore" >Log:{activityLogHandle}</p>
+        <p id="logStore"> Log:{activityLogHandle}</p>
       </>
     </Form>
   );
