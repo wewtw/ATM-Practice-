@@ -1,0 +1,50 @@
+html{
+  display: inline-block;
+  text-align: center;
+  background-color: #121212;
+}
+
+
+button {
+  background-color: #0c80f3;
+  border: 6px solid #0ff166;
+  border-radius: 10px;
+  width: 150px;
+}
+
+#form{
+  background-color: dodgerblue;
+  display:inline-block;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 5em;
+  justify-content: center;
+  height: 100%;
+  
+  
+
+}
+
+select {
+  display: inline-block;
+  padding: .5em;
+  
+}
+
+.dlable{
+  padding: 1em;
+  font-size: large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#root{
+  height:100%;
+  
+}
+#welcome{
+  color: white;
+  font-size:larger;
+  word-wrap: break-word;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 5em;
+}
