@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Form from 'react-bootstrap/Form';
 
-
+function App(){
 const ATMDeposit = ({ onChange, isDeposit, isValid }) => {
   const choice = ["Deposit", "Cash Back"];
   console.log(`ATM isDeposit: ${isDeposit}`);
@@ -130,5 +130,5 @@ const Account = () => {
     </Form>
   );
 };
-
-export default Account;
+}
+export default App;
