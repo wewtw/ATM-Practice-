@@ -131,4 +131,4 @@ const Account = () => {
   );
 };
 }
-export default App;
+export default Account;
